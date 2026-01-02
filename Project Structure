@@ -1,0 +1,12 @@
+Enterprise-Networking-Project-CCNA/
+│
+├── README.md
+├── LICENSE
+├── Topology Diagram/
+│   └── network_topology.png
+├── Configs/
+│   ├── Switch_Configs.txt
+│   ├── Router_Configs.txt
+│   └── DHCP_Config.txt
+└── Documents/
+    └── CCNA_Project_Report.pdf
