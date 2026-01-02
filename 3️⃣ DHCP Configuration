@@ -1,0 +1,12 @@
+3 DHCP Configuration
+ip dhcp pool HR
+   network 192.168.10.0 255.255.255.0
+   default-router 192.168.10.1
+
+ip dhcp pool FINANCE
+   network 192.168.20.0 255.255.255.0
+   default-router 192.168.20.1
+
+ip dhcp pool IT
+   network 192.168.30.0 255.255.255.0
+   default-router 192.168.30.1
