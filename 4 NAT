@@ -1,0 +1,9 @@
+NAT for Internet Access
+Router(config)# access-list 1 permit 192.168.0.0 0.0.255.255
+Router(config)# ip nat inside source list 1 interface g0/1 overload
+
+Router(config)# interface g0/0
+Router(config-if)# ip nat inside
+
+Router(config)# interface g0/1
+Router(config-if)# ip nat outside
