@@ -1,11 +1,11 @@
 # Enterprise Network Design & Implementation (CCNA Project)
 
-## 📌 Project Overview
+##  Project Overview
 This project demonstrates the design and implementation of a **secure, scalable enterprise network** using Cisco devices. It covers VLAN configuration, Inter-VLAN routing, DHCP, NAT, OSPF, and ACLs for departmental segmentation, secure routing, and controlled internet access.
 
 ---
 
-## 🎯 Objectives
+##  Objectives
 - Isolate departments using VLANs
 - Allow controlled Inter-VLAN communication
 - Enable automatic IP allocation via DHCP
@@ -16,7 +16,7 @@ This project demonstrates the design and implementation of a **secure, scalable 
 
 ---
 
-## 🏢 Network Scenario
+## Network Scenario
 **Departments:**
 - HR Department
 - Finance Department
@@ -32,7 +32,7 @@ This project demonstrates the design and implementation of a **secure, scalable 
 
 ---
 
-## 🧱 Devices Used
+## Devices Used
 - 2 × Routers (Cisco 2911)
 - 2 × Layer-2 Switches (Cisco 2960)
 - 1 × ISP Router (Simulated)
@@ -41,7 +41,7 @@ This project demonstrates the design and implementation of a **secure, scalable 
 
 ---
 
-## 🧩 IP Addressing Scheme
+## IP Addressing Scheme
 
 | VLAN | Department | Network       | Gateway        |
 |------|------------|---------------|----------------|
@@ -52,9 +52,9 @@ This project demonstrates the design and implementation of a **secure, scalable 
 
 ---
 
-## 🔹 Step-by-Step Implementation
+##  Step-by-Step Implementation
 
-### 1️⃣ VLAN Configuration on Switch
+### 1️ VLAN Configuration on Switch
 ```bash
 Switch(config)# vlan 10
 Switch(config-vlan)# name HR
